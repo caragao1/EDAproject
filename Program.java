@@ -91,7 +91,7 @@ public class Program {
 		
 		
 		
-		System.out.printf("------------------------------------------------------------------------------------------\n1 - Insertion Sort\n2 - Selection Sort\n3 - Merge Sort\n4 - Quick Sort\n5 - Quick3 Sort\n6 - Counting Sort(Não conseguimos fazer)\n7 - Heap Sort");
+		System.out.printf("------------------------------------------------------------------------------------------\n1 - Insertion Sort\n2 - Selection Sort\n3 - Merge Sort\n4 - Quick Sort\n5 - Quick3 Sort\n6 - Counting Sort(NÃ£o conseguimos fazer)\n7 - Heap Sort");
 		int opcao = input.nextInt();
 		int i = opcao-1;
 		switch (i){
@@ -252,7 +252,7 @@ public class Program {
             System.out.println(tipoDeOrdenacao[i]+":\tTempo para ordenar Casos: "+tempoCasos[i]+"ms\t Tempo para ordenar Obitos: "+tempoObitos[i]+"ms        Tempo para ordenar Cidades: "+tempoCidade[i]+"ms");
             break;
 		case 5:
-			//Não conseguimos fazer o counting sort
+			//NÃ£o conseguimos fazer o counting sort
 			tempoCasos[5] = 0;
 			tempoObitos[5] = 0;
 			tempoCidade[5] = 0;
@@ -291,15 +291,12 @@ public class Program {
            break;
 		
 		default:
-				System.out.println("Opçao invalida");
+				System.out.println("OpÃ§ao invalida");
 
 		input.close();
 		
 	}
 }
 }
-/*
- System.out.println(tipoDeOrdenacao[i]+":\tTempo para ordenar Casos: "+tempoCasos[i]+"ms\t Tempo para ordenar Obitos: "+tempoObitos[i]+"ms        Tempo para ordenar Cidades: "+tempoCidade[i]+"ms");
-				System.out.println("Relatório gerado com sucesso!!");
- */
+
 
